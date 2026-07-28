@@ -1,5 +1,7 @@
+import { DepositCheckerPage } from "./components/DepositCheckerPage";
+
 function App() {
-  return <div>AED Deposit Limit Checker</div>;
+  return <DepositCheckerPage />;
 }
 
 export default App;
