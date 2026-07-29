@@ -36,13 +36,6 @@ The client reads the API's base URL from `VITE_API_BASE_URL` (see
 `client/.env.example`); it defaults to `http://localhost:3001` if unset,
 which matches the server's default port.
 
-> **macOS local network permission:** when running `npm run dev` locally,
-> Safari/Chrome may show a system prompt like *"[Browser] would like to
-> find and connect to devices on your local network."* Click **Allow** —
-> if you deny it, the client (`localhost:5173`) silently fails to reach
-> the API (`localhost:3001`) and the summary/eligibility check will show
-> a network error instead of loading.
-
 ## API summary
 
 ### `GET /api/deposit-summary`
